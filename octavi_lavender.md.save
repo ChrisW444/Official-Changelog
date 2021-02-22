@@ -1,0 +1,20 @@
+# Octavi-OS Changelog Official for lavender
+# Version 2.0 (21-02-2001)
+
+Changes
+  - Update fingerprint to Redfin - RQ1A.210205.004 (cts passed without magisk)
+  - Import Pixel Power Hal (switched to eas)
+  - Use NexusKernel EAS V1
+  - Set google AutofillService default
+  - Disable foreground prefer_idle & reduce TA boost
+  - import Hotword Enrollment blobs
+
+Dirac
+   - Dirac/Mi Sound separate to XiaomiParts (moved for Settings)
+   - Add bass booster preset for MiSound (much stronger bass for those who use headphones)
+   - Fix: Dirac: Enable by default (dirac didn't work well at times)
+
+XiaomiParts
+   - Adding XiaomiParts into the whitelist (* Adding XiaomiParts into whitelist to avoid it being killed by
+   doze. Also granting necessary permission to function properly.
+* Required for Headphone & Mic Gain as it currently get killed
