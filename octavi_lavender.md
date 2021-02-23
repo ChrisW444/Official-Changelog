@@ -1,5 +1,5 @@
 # Octavi-OS Changelog Official for lavender
-# Version 2.0 (21-02-2001)
+# Version 2.0 (22-02-2001)
 
 Changes
   - Update fingerprint to Redfin - RQ1A.210205.004 (cts passed without magisk)
@@ -10,12 +10,15 @@ Changes
   - import Hotword Enrollment blobs
   - Removed all apps prebuilt
   - Drop non-functional soundtrigger
+  - Fix: fix lag in the system UI
+  - Fix: fix hotspost didn't work for some people
 
 Dirac
    - Dirac/Mi Sound separate to XiaomiParts (moved for Settings)
    - Add bass booster preset for MiSound (much stronger bass for those who use headphones)
    - Add Blobs Dirac (adde some libs on vendor)
    - Fix: Dirac: Enable by default (dirac didn't work well at times)
+   - Import MIUI dirac translations
 
 XiaomiParts
    - Adding XiaomiParts into the whitelist ( Adding XiaomiParts into whitelist to avoid it being killed by
@@ -31,3 +34,4 @@ XiaomiParts
 Credits:
    - Thanks @hazama25 for dt base!
    - Thanks @NotZeetaa for kernel!
+   - Thanks @inferno964 for tests!
