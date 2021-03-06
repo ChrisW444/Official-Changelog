@@ -1,4 +1,50 @@
 # Octavi-OS Changelog Official for lavender
+# Version 2.1 | Kernel 4.4 (07-03-2021)
+
+# Changes
+- Switch to enforcing
+- Update Nexus Kernel to V2 4.4.258
+- Update fingerprint to Redfin - RQ2A.210305.006 (cts passed without magisk)
+- Update wfd blobs from LA.UM.9.6.2.r1-03300-89xx.0
+- Update GPS blos from LA.UM.9.6.2.r1-03600-89xx.0
+- Update some blobs from LA.UM.9.6.2.r1-03600-89xx.0
+- Update Telephony overlays from LA.UM.9.2.1.r1-05500-sdm660.0
+- Update vendor SPL from LA.UM.8.2.r1-07400-sdm660.0
+- Add wfd dependency blobs From LA.UM.9.6.2.r1-03300-89xx.0
+- Add CustomDoze Octavi-OS (Ambient Display)
+- Add support for 240FPS 1/8 slow-motion
+- Add flipendo sepolicy rules
+- Configure SQLite to operate in MEMORY mode
+- Define ro.media.recorder-max-base-layer-fps
+- Switch Channels for Camera Recording
+
+# Apps
+- Add Gboard default in Vanilla Build
+- Add Google Go files manager in Gapps builds
+- Add Vanced Manager 
+- Set Solid Explorer default file manager
+- Update GCamGO to v1.11
+
+# Fix
+- Fix audio recording in video mode
+- Fix mic issues in apps like WhatsApp
+- Fix headsup app icon offset.
+- Fix Google Assistent
+
+# Dirac
+- Force enable on boot
+- Update icons to preset
+
+# XiaomiParts
+- Update icons to CPU & GPU Boost
+- Add Punch Saturated Colors preset on KCal by default
+- Drop Spectrum (was negatively impacting performance and battery) 
+
+# Credits
+- Thanks @Golpiista, @pilot1964691, @OOSFAN, @Lavender101 fot tests!
+- Thanks @NotZeetaa for kernel!
+
+
 # Version 2.0 (22-02-2001)
 
 Changes
