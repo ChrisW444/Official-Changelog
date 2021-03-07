@@ -3,6 +3,7 @@
 
 # Changes
 - Switch to enforcing
+- Switch Offline Charger to MIUI
 - Update Nexus Kernel to V2 4.4.258
 - Update fingerprint to Redfin - RQ2A.210305.006 (cts passed without magisk)
 - Update wfd blobs from LA.UM.9.6.2.r1-03300-89xx.0
