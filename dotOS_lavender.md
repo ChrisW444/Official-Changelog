@@ -5,7 +5,7 @@ General:
 - Adjusted RSSI thresholds for switching between WiFi networks
 - Allocate heap values dynamicall
 - Add Audio 24bits
-- Add Gboard em builds Camilla
+- Add Gboard em builds Vanilla
 - Add OnePlus
 - Light HAL now gets loaded earlier at bootup to prevent any potential issues
 - Optimized shutdown time
