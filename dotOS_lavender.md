@@ -6,7 +6,7 @@ General:
 - Allocate heap values dynamicall
 - Add Audio 24bits
 - Add Gboard em builds Vanilla
-- Add OnePlus
+- Add OnePlus Screen Record
 - Light HAL now gets loaded earlier at bootup to prevent any potential issues
 - Optimized shutdown time
 - Removed all-caps text for buttons
